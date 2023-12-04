@@ -1,0 +1,77 @@
+body{
+  display: flex;
+ 
+}
+
+#most_main_div{
+  width: 24.5cm;
+}
+
+
+
+
+
+/* #shop_name{
+  color: yellow;
+  text-align: center;
+  font-size:40px;
+  background-color: red;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  
+  
+} */
+#bill_board_image1{
+  width:100%
+}
+#shop_website{
+  text-align: center;
+  margin-bottom: 10px;
+  /* border: 1px solid gold; */
+  background-color: red;
+  color: yellow;
+  font-size: 20px;
+  padding: 5px;
+}
+#adress_and_customer_info{
+  display: flex;
+  width: 24.5cm;
+  padding-top: 20px;
+}
+#customer_info{
+  display: flex;
+  
+  align-items: center;
+  width: 35%;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#shop_adress{
+  text-align: center;
+
+  
+}
+#div_adress{
+  width: 35%;
+  border: 2px solid black;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bis_logo_div{
+  height: 100px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /* background-color: blueviolet; */
+  margin-bottom: 5px;
+text-align: center;
+}
+#bis_logo_img{
+  height: 80px;
+  text-align: center;
+}

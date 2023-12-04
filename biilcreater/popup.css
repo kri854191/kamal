@@ -1,0 +1,143 @@
+/* popup window id is= window_popup1*/
+
+#window_popup1{
+ padding: 20px;
+}
+
+
+
+#window_popup1{
+  background-color: blueviolet;
+  top: 10%;
+  left: 30cm;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    /* background-color: rgb(22, 179, 231); */
+  }
+    #window_popup1{
+      top: 250px;
+      left: 10vw;
+
+    }
+    #window_popup1{
+      width: 350px;
+      /* background-color:white; */
+     font-size: 20px;
+    }
+    #window_popup1>input{
+     display: inline;
+     width: 200px;
+     background-color:white ;
+    align-content: center;
+    height: 20px;
+     padding-left: 5px;
+     font-size: 18px;
+     /* box-sizing: border-box; */
+     border-radius: 5px;
+     border: none;
+    }
+   
+    #window_popup1>select{
+      display: inline;
+      width: 200px;
+      height: 25px;
+      background-color: white;
+      font-size: 20px;
+      border-radius: 5px;
+      
+     }
+    #window_popup1>button{
+      display:inline;
+      
+     }
+     #window_popup1>p{
+       
+      display:inline;
+      
+      /* background-color: white; */
+      margin-top: 5px;
+      
+     }
+     #window_popup1>p>p{
+      display:inline;
+      width: 100px;
+      height: 20px;
+      text-align: center;
+      
+      
+     }
+     #window_popup1>p>hr{
+    background-color: blueviolet;
+     
+      
+      
+     }
+     #window_popup1>:nth-child(2)>p{
+      /* background-color: rgb(4, 0, 255); */
+      margin-right: 48px;
+     }
+     #window_popup1>:nth-child(4)>p{
+      /* background-color: aqua; */
+      margin-right: 48px;
+     }
+     #window_popup1>:nth-child(6)>p{
+      /* background-color: rgb(255, 0, 157); */
+      margin-right: 81px;
+     }
+     #window_popup1>:nth-child(8)>p{
+      /* background-color: rgb(208, 255, 0); */
+      margin-right: 97px;
+     }
+     #window_popup1>:nth-child(10)>p{
+      /* background-color: rgb(29, 245, 245); */
+     margin-right: 78px;
+     }
+     #window_popup1>:nth-child(12)>p{
+      /* background-color: rgb(255, 145, 0); */
+     }
+     #window_popup1>:nth-child(14)>p{
+      /* background-color: rgb(255, 145, 0); */
+     margin-right: 85px;
+     
+     }
+
+
+
+     /* BUTTO CANCEL and save */
+     #window_popup1>:nth-child(16){
+     
+     width: 48%;
+     border-radius: 10px;
+     border: none;
+     height: 30px;
+     margin: 1%;
+    
+     
+     }
+     #window_popup1>:nth-child(16):hover{
+transition: 0.5s;
+      background-color: red;
+      box-shadow: 1px 1px 4px 1px rgb(231, 227, 227);
+
+     }
+     #window_popup1>:nth-child(17){
+      background-color: rgb(6, 248, 6);
+     width: 48%;
+     border-radius: 10px;
+     border: none;
+height: 30px;
+margin: 1%;
+margin-top: 20px;
+     
+     }
+     #window_popup1>:nth-child(17):hover{
+      transition: 0.5s;
+            background-color: rgb(51, 255, 0);
+            box-shadow: 1px 1px 4px 1px rgb(231, 227, 227);
+      
+           }
+  }
+

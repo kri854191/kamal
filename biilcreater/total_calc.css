@@ -1,0 +1,23 @@
+#total_calculation{
+  background-color: rgb(253, 252, 253);
+  min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ padding: 5px;
+ font-size: 20px;
+ border: 2px solid black;
+}
+#final_discount{
+  font-size: 17px;
+  width: 40px;
+ 
+}
+/* #all_total_amount{
+  width: 100px;
+} */
+#final_discount::-webkit-outer-spin-button,
+#final_discount::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

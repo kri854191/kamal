@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="data-field.css" />
+    <link rel="stylesheet" href="head.css" />
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="total_calc.css" />
+    
+    <link rel="stylesheet" href="gold_rate_section.css" />
+  
+    <script type="module" src="date_update.js"></script>
+    <script type="module" src="print_and_hide.js"></script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+
+<div id="most_main_div">
+<div id="head">
+<h1 id="shop_name"></h1>
+<!-- <img id="bill_board_image" src="https://raw.githubusercontent.com/gitkrishnaa/bill2.0_billboard_head/main/img/IMG-20230311-WA0025.jpg" alt="aedfesrfs"> -->
+<img id="bill_board_image1" src="./img/billhead.jpg" alt="aedfesrfs">
+<h3 id="shop_website">www.bjgold.in</h3>
+
+<!-- https://raw.githubusercontent.com/gitkrishnaa/bill2.0_billboard_head/main/img/IMG-20230311-WA00251.jpg -->
+
+<div id="adress_and_customer_info">
+<div id="customer_info">
+  <div>
+ <span><b>Name:
+   </b>
+ </span>
+ <span contenteditable="true" style="padding:4px">
+
+</span>
+ <br>
+
+ <span><b>    Adress:
+</b>
+</span>
+<span contenteditable="true" style="padding:4px">
+
+</span>
+<br>
+<span><b>Date:
+</b>
+</span>
+<span id="date_update" contenteditable="true" style="padding:4px"><bold>today date
+</bold>
+</span>
+ <br>
+</div>
+</div>
+<div id="bis_logo_div">
+  <div><img id="bis_logo_img" src="./img/Bureau_of_Indian_Standards_Logo.svg.png" alt="bis logo">
+    <h4>licence no.-5390143016</h4></div>
+  
+  </div>
+<div id="div_adress">
+  <address id="shop_adress"> 
+    <p>near purani durga mandir</p>
+    <p><b>kamtaul Bazar</b>,847304</p>
+    
+    
+    <span>district:</span><span>darbhaga</span>
+    <br>
+    <span>Mob:</span><span>7050037790,9708749828</span>
+    
+    </address>
+</div>
+
+
+</div>
+
+
+<hr>
+</div>
+<!-- gold rate -->
+<div id="gold_rate_section">
+<div><h3>Gold Rate</h3></div>
+<div><span>24k:</span><span id="gold_rate_24k_span"></span><span>/10g</span></div>
+<div><span>22k:</span><span id="gold_rate_22k_span"></span><span>/10g</span></div>
+<div><span>18k:</span><span id="gold_rate_18k_span"></span><span>/10g</span></div>
+
+<span id="gold_input_button_hide">
+<input type="number" placeholder="update gold rate daily" id="update_gold_rate24k">
+<button id="update_gold_rate24k_button">Update rate</button>
+</span>
+</div>
+<!-- data -->
+<div>
+<div id="data-head" class="data-field-head">
+<div><h4>No.</h4></div>
+<div><h4>Details</h4></div>
+<div><h4>type</h4></div>
+<div><h4>Weight</h4></div>
+<div><h4>Rate</h4></div>
+<div><h4>m.c.</h4></div>
+<div><h4>Amount</h4></div>
+<div><h4>Total</h4></div>
+
+</div>
+<div id="display" >
+
+</div>
+<div id="total_calculation">
+<div>
+  <div><span id="final_discount_hide"> discount: <input type="number" id="final_discount" 
+    ><span>rs</span></span></div>
+<div>Paid Amount : <span id="all_total_amount"></span><span> rs</span></div>
+<button id="print_hide">Print</button>
+</div>
+
+</div>
+
+
+
+
+<button id="add-item-1">add items</button>
+
+
+</div>
+
+</div>
+
+
+
+
+  </body>
+</html>
