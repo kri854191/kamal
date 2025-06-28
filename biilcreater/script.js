@@ -58,7 +58,7 @@ gold_rate_24k_button.addEventListener('click', () => {
   const gold_rate_24k_number = Number(gold_rate_24k.value); // input is string convert into number
   localStorage.setItem('Daily_gold_rate_24k', gold_rate_24k_number);
 
-  if (gold_rate_24k.value.length != 5) {
+  if (gold_rate_24k.value.length <5) {
     alert('rate format is not correct');
     console.log(gold_rate_24k.length);
   } else {
